@@ -12,24 +12,7 @@ export const App = () => {
 
   const getNoButtonText = () => {
     const phrases = [
-      "No",
-      "Estas Segura?",
-      "Muy Segura?",
-      "Muy Muy Muy Muy Segura?",
-      "Piensalo :c",
-      "Ultima Oportunidad",
-      "Completamente Segurisima?",
-      "Te podrias arrepentir heee",
-      "Piensalo una vez maaaas",
-      "Es una oportunidad unicaaa",
-      "Quieremeeee!!",
-      "No seas tan fria con mi cora",
-      "Te compro un dulce Karla",
-      "¿Podrias Considerarlo?",
-      "Dame una unica oportunidad",
-      "¿Es tu respuesta final?",
-      "Rompes mi corazon",
-      "Yo te quiero :c",
+      "No"
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -50,14 +33,6 @@ export const App = () => {
             Inge 👩‍🎓 Maestra 👩‍🏫 Souza  ¿Te gustaria pasar el 14 de febrero conmigo? 💞
           </h1>
           <div>
-            <button
-              type="button"
-              className={`run bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-8 rounded mr-2 mb-2`}
-              style={{ fontSize: yesButtonSize }}
-              onClick={() => setYesPressed(true)}
-            >
-              Si
-            </button>
             <button
               type="button"
               onClick={handleNoClick}
