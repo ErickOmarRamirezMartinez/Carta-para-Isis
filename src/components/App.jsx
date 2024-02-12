@@ -30,7 +30,7 @@ export const App = () => {
             src="/Cenicienta.gif"
           />
           <h1 className="text-4xl font-bold text-center my-4">
-            Inge 👩‍🎓 Maestra 👩‍🏫 Souza  ¿Te gustaria pasar el 14 de febrero conmigo? 💞
+            Espero que disfrutes el 14 de febrero Isis
           </h1>
           <div>
             <button
